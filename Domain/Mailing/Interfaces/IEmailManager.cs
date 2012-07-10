@@ -1,4 +1,4 @@
-﻿namespace Domain.Mailing
+﻿namespace Domain.Mailing.Interfaces
 {
     using Entities;
 

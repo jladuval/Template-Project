@@ -18,5 +18,7 @@
         public virtual ICollection<Role> Roles { get; set; }
 
         public virtual ICollection<Activation> Activations { get; set; }
+
+        public virtual SiteRegistration SiteRegistration { get; set; }
     }
 }

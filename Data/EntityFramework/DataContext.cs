@@ -18,7 +18,10 @@ namespace Data.EntityFramework
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Configurations.Add(new EntityConfiguration());
+            modelBuilder.Configurations.Add(new UserConfiguration());
+            modelBuilder.Configurations.Add(new SiteRegistrationConfiguration());
+            modelBuilder.Configurations.Add(new RoleConfiguration());
+            modelBuilder.Configurations.Add(new ActivationConfiguration());
 
         }
     }

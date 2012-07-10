@@ -10,6 +10,8 @@
 
         public const int PasswordLength = 128;
 
+        public const int PasswordResetTokenLength = 128;
+
         public const int ConfirmationTokenLength = 128;
 
         public const int RoleNameLength = 50;

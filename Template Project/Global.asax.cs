@@ -8,6 +8,9 @@ using System.Web.Routing;
 
 namespace Template_Project
 {
+    using App_Start;
+    using Ninject.Web.Mvc;
+
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801
     public class MvcApplication : System.Web.HttpApplication
@@ -18,6 +21,7 @@ namespace Template_Project
 
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            DependencyResolver.SetResolver(new NinjectDependencyResolver(NinjectBooster.GetKernel()));
         }
     }
 }
