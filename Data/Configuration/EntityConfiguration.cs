@@ -8,7 +8,7 @@
 
     internal class EntityConfiguration : EntityTypeConfiguration<Entity>
     {
-        public ActivationConfiguration()
+        public EntityConfiguration()
         {
             HasKey(e => e.Id).Property(e => e.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
         }
