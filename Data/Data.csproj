@@ -54,7 +54,10 @@
     <Compile Include="Initialization\DefaultInitializer.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IUnitOfWork.cs" />
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\201207120921132_InitializeDatabase.cs" />
+    <Compile Include="Migrations\201207120921132_InitializeDatabase.Designer.cs">
+      <DependentUpon>201207120921132_InitializeDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migration\DefaultConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
