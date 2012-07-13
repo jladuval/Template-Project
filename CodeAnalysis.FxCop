@@ -24,11 +24,11 @@
   <AssemblyReferenceDirectories>   
    <Directory>C:/Program Files (x86)/Microsoft ASP.NET/ASP.NET MVC 3/Assemblies/</Directory>
   </AssemblyReferenceDirectories>
-   <Target Name="$(ProjectDir)/../RBS.BizCrowd.Web/bin/RBS.BizCrowd.Core.dll" Analyze="True" AnalyzeAllChildren="True" />
-   <Target Name="$(ProjectDir)/../RBS.BizCrowd.Web/bin/RBS.BizCrowd.Data.dll" Analyze="True" AnalyzeAllChildren="True" />
-   <Target Name="$(ProjectDir)/../RBS.BizCrowd.Web/bin/RBS.BizCrowd.Domain.dll" Analyze="True" AnalyzeAllChildren="True" />
-   <Target Name="$(ProjectDir)/../RBS.BizCrowd.Web/bin/RBS.BizCrowd.Model.dll" Analyze="True" AnalyzeAllChildren="True" />
-   <Target Name="$(ProjectDir)/../RBS.BizCrowd.Web/bin/RBS.BizCrowd.Web.dll" Analyze="True" AnalyzeAllChildren="True" />
+   <Target Name="$(ProjectDir)/../Template_Project/bin/WebCore.dll" Analyze="True" AnalyzeAllChildren="True" />
+   <Target Name="$(ProjectDir)/../Template_Project/bin/Data.dll" Analyze="True" AnalyzeAllChildren="True" />
+   <Target Name="$(ProjectDir)/../Template_Project/bin/Domain.dll" Analyze="True" AnalyzeAllChildren="True" />
+   <Target Name="$(ProjectDir)/../Template_Project/bin/Entities.dll" Analyze="True" AnalyzeAllChildren="True" />
+   <Target Name="$(ProjectDir)/../Template_Project/bin/Template_Project.dll" Analyze="True" AnalyzeAllChildren="True" />
  </Targets>
  <Rules>
   <RuleFiles>
