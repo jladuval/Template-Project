@@ -8,7 +8,7 @@
     {
         public RoleConfiguration()
         {
-            HasKey(e => e.Id).Property(e => e.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            HasKey(e => e.Id).Property(e => e.Id);
             Property(e => e.RoleName).HasMaxLength(EntitySettings.RoleNameLength).IsRequired();
             Property(e => e.Description).HasMaxLength(EntitySettings.RoleDescriptionLength);
         }

@@ -8,7 +8,7 @@
     {
         public UserConfiguration()
         {
-            HasKey(e => e.Id).Property(e => e.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            HasKey(e => e.Id).Property(e => e.Id);
             Property(e => e.FirstName).HasMaxLength(EntitySettings.FirstNameLength);
             Property(e => e.LastName).HasMaxLength(EntitySettings.LastNameLength);
             Property(e => e.Email).IsRequired().HasMaxLength(EntitySettings.EmailLength);

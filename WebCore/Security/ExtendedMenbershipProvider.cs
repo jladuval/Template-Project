@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Specialized;
-    using System.Data.Entity;
     using System.Linq;
     using System.Web.Mvc;
     using System.Web.Security;
@@ -10,6 +9,7 @@
     using Entities;
     using Exceptions;
     using Interfaces;
+    using System.Data.Entity;
 
     public class ExtendedMembershipProvider : MembershipProviderBase
     {

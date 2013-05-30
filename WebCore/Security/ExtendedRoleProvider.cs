@@ -3,13 +3,13 @@
     using System;
     using System.Collections.ObjectModel;
     using System.Collections.Specialized;
-    using System.Data.Entity;
     using System.Globalization;
     using System.Linq;
     using System.Web.Mvc;
     using Data.Interfaces;
     using Entities;
     using Interfaces;
+    using System.Data.Entity;
 
     public class ExtendedRoleProvider : RoleProviderBase
     {

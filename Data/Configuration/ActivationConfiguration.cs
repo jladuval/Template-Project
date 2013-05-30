@@ -8,7 +8,7 @@
     {
         public ActivationConfiguration()
         {
-            HasKey(e => e.Id).Property(e => e.Id).HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
+            HasKey(e => e.Id).Property(e => e.Id);
             Property(e => e.ConfirmationToken).HasMaxLength(EntitySettings.ConfirmationTokenLength);
             Property(e => e.ActivatedDate).HasColumnType("datetime2");
             HasRequired(e => e.User).WithMany(e => e.Activations).HasForeignKey(e => e.UserId).WillCascadeOnDelete(true);
